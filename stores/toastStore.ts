@@ -1,6 +1,5 @@
 import {defineStore} from "pinia";
 import {v4 as uuid} from 'uuid';
-import {useT} from "~/composables/useT";
 
 type Toast = {
   id: string,

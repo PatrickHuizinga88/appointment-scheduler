@@ -1,0 +1,43 @@
+{
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#Collection(microsoft.graph.scheduleInformation)",
+  "value": [
+    {
+      "scheduleId": "hello@patrickhuizinga.nl",
+      "availabilityView": "0001100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "scheduleItems": [
+        {
+          "isPrivate": false,
+          "status": "tentative",
+          "subject": "Overleg Portaal",
+          "location": "du Gardijn (Colosseum 1, 7521 PV Enschede Overijssel, Nederland)",
+          "isMeeting": true,
+          "isRecurring": false,
+          "isException": false,
+          "isReminderSet": true,
+          "start": {
+            "dateTime": "2025-05-02T10:30:00.0000000",
+            "timeZone": "W. Europe Standard Time"
+          },
+          "end": {
+            "dateTime": "2025-05-02T11:30:00.0000000",
+            "timeZone": "W. Europe Standard Time"
+          }
+        }
+      ],
+      "workingHours": {
+        "daysOfWeek": [
+          "monday",
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ],
+        "startTime": "09:00:00.0000000",
+        "endTime": "17:00:00.0000000",
+        "timeZone": {
+          "name": "W. Europe Standard Time"
+        }
+      }
+    }
+  ]
+}

@@ -42,9 +42,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       baseUrl: 'http://localhost:3000',
-      stripeKey: '',
     },
-    stripeSecretKey: ''
   },
 
   modules: [
@@ -83,9 +81,6 @@ export default defineNuxtConfig({
 
   i18n: {
     strategy: 'prefix_except_default',
-    // detectBrowserLanguage: {
-    //   useCookie: false
-    // },
     defaultLocale: 'en',
     locales: [
       {

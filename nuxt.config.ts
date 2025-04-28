@@ -43,6 +43,7 @@ export default defineNuxtConfig({
     public: {
       baseUrl: 'http://localhost:3000',
     },
+    microsoftClientSecret: ''
   },
 
   modules: [
@@ -81,7 +82,7 @@ export default defineNuxtConfig({
 
   i18n: {
     strategy: 'prefix_except_default',
-    defaultLocale: 'en',
+    defaultLocale: 'nl',
     locales: [
       {
         code: 'en',
@@ -91,7 +92,7 @@ export default defineNuxtConfig({
       {
         code: 'nl',
         name: 'Nederlands',
-        files: ['nl/common.ts', 'nl/404.ts', 'nl/account.ts', 'nl/authentication.ts', 'nl/customers.ts', 'nl/dashboard.ts', 'nl/feedback.ts', 'nl/legal.ts', 'nl/pricing.ts', 'nl/settings.ts', 'nl/users.ts']
+        files: ['nl/common.ts', 'nl/404.ts', 'nl/account.ts', 'nl/appointment_scheduler.ts', 'nl/authentication.ts', 'nl/customers.ts', 'nl/dashboard.ts', 'nl/feedback.ts', 'nl/legal.ts', 'nl/pricing.ts', 'nl/settings.ts', 'nl/users.ts']
       },
     ],
     customRoutes: 'config',
@@ -165,7 +166,7 @@ export default defineNuxtConfig({
 
   dayjs: {
     locales: ['en', 'nl'],
-    defaultLocale: 'en',
+    defaultLocale: 'nl',
     plugins: ['relativeTime', 'utc', 'timezone'],
   },
 
